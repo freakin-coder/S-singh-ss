@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="TTS"
+    android:background="@drawable/ssjaan"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:onClick="TTS"
+        >
+
+
+        <!-- LinearLayout Inside ScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:onClick="TTS">
+
+
+
+
+    <!-- row 1 -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#3366ff"
+                android:padding="16dp"
+                android:text="SAURAV                     SHALINI"
+                android:textSize="24dp" />
+    <!-- row 1 end -->
+
+
+    <!-- row 2 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:onClick="TTS">
+
+
+
+        <!-- col 1 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="TTS"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Kya kr rhi ho??"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="TextView1A"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="jaanti ho tmko bht miss kr rhe"
+                android:visibility="gone" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="TextView1A"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="haa kosis sikh jaayeenge"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Pehli baar pyaar kiye naa.. idea nhi tha"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="TextView1Afgfyfytgf"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Nhi .. nhi.. "
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Maine darr jaana"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="TextView1Ajiuhu"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="To kya bole tmhre paas sbse baat krne ka time rehta mere se hi nhi"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Bs isliye udaas ho jaate aur kch nhi.. choro     BYE"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="TextView1Ahhgfhgjfhgvfdhgbhfdnjhghbvjhfdcxgbhghvfdghjghgfdfgfgfgvfgghfyhgfyhg"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_1"
+                android:padding="8dp"
+                android:text="Meri pyaari Sinni.. Bbyee"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+        <!-- col 1 end -->
+        <!-- col 2 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="TTS">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Mon 21,11,2019"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:padding="8dp"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <!-- col 2 end -->
+        <!-- col 3 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="TTS">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text=""
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Bs kuch nhi"
+                android:visibility="gone" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="asdgcgvgfg jkjikhjhkljbh"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="hehehe.. Mt kro"
+                android:visibility="gone" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="sfdgfhfghdfhfgvgffdgvnfgh"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="dgfdthfghfghfdbvbncfghdfgvbgft"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Tmko maar khana hai"
+                android:visibility="gone" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Bs kuch nhi"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Bs kuch nhi  hgyjghgjhk"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Haa to jyada mat bolo"
+                android:visibility="gone" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Bs kuch nhicfxdznhsdhjusdhggdhghdsdsrrddddrgdrfgfhghgggggj"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Bs kuch nhisdgsahdghdsagfhfghfsdeghgfhgsggsew"
+                android:visibility="invisible" />
+
+            <TextView
+
+                android:id="@+id/t13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_3"
+                android:padding="8dp"
+                android:text="Aree.. Love you jaan ..Tmse pakka baat krenge.. Pr udaas mt ho Bye"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
